@@ -86,7 +86,7 @@ p {
 
 @media (max-width: 900px) {
   .main-container {
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
   }
 
   .card-image {
