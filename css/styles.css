@@ -78,6 +78,21 @@ p {
   background-blend-mode: multiply;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+li span {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
