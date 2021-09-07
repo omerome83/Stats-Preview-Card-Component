@@ -1,0 +1,71 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* background-color: hsl(233, 47%, 7%); */
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.4;
+  padding-bottom: 40px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.container {
+  border-radius: 29px;
+  max-width: 1000px;
+  display: flex;
+  margin: 200px auto;
+
+  /* box-shadow: 0px 0px 14px 1px #00000024; */
+}
+
+.card {
+  padding: 40px;
+  background-color: blue;
+}
+
+.sub-card {
+  background-color: green;
+}
+
+.stats {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
+
+.stats p {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.card img {
+  padding: 0px;
+  background-color: red;
+  background-blend-mode: luminosity;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
