@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap"
@@ -16,17 +15,16 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
     <main>
-      <div class="container">
-        <div class="card-1">
+      <div class="main-container">
+        <div class="card-content">
           <section>
             <h1>
-              Get <span class="card-1-span">insights</span> that help your
-              business grow.
+              Get <span class="accent">insights</span> that help your business
+              grow.
             </h1>
             <p>
               Discover the benefits of data analytics and make better decisions
@@ -34,30 +32,38 @@
             </p>
           </section>
           <section>
-            <table>
-              <tr>
-                <th>10k+</th>
-                <th>314</th>
-                <th class="capitalize">12m+</th>
-              </tr>
-              <tr>
-                <td>companies</td>
-                <td>templates</td>
-                <td>queries</td>
-              </tr>
-            </table>
+            <div class="stats-container">
+              <ul>
+                <li class="card-stats">
+                  <h3>10k+</h3>
+                  <span class="capitalize">companies</span>
+                </li>
+              </ul>
+              <ul>
+                <li class="card-stats">
+                  <h3>314</h3>
+                  <span class="capitalize">templates</span>
+                </li>
+              </ul>
+              <ul>
+                <li class="card-stats">
+                  <h3 class="capitalize">12m+</h3>
+                  <span class="capitalize">queries</span>
+                </li>
+              </ul>
+            </div>
           </section>
         </div>
-        <div class="card-2"></div>
+        <div class="card-image"></div>
       </div>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/omerome83">Romel Williams</a>.
+        </div>
+      </footer>
     </main>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/omerome83">Romel Williams</a>.
-      </div>
-    </footer>
   </body>
 </html>
