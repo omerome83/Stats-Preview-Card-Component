@@ -73,6 +73,7 @@ h3 {
 .card-image {
   width: 100%;
   background: url(../images/image-header-desktop.jpg) no-repeat;
+  background-size: cover;
   background-color: hsl(277, 64%, 61%);
   background-blend-mode: multiply;
 }
@@ -105,8 +106,9 @@ li span {
 
   .card-image {
     min-height: 400px;
-    background: url(../images/image-header-mobile.jpg);
+    background: url(../images/image-header-mobile.jpg) no-repeat;
     background-blend-mode: multiply;
+    background-size: cover;
     background-color: hsl(277, 64%, 61%);
   }
 
