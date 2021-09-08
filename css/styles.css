@@ -119,4 +119,8 @@ li span {
     justify-content: center;
     align-items: center;
   }
+
+  .card-stats {
+    padding-right: 60px;
+  }
 }
